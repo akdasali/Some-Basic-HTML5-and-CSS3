@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Custom property and use var</title>
+    <style>
+        /* custom property or variable */
+        :root{
+            --main-color:blue;
+            --border-color:red;
+            --background-color:gold;
+        }
+        h1{
+            color: var(--main-color);
+        }
+        p{
+            color: var(--main-color);
+        }
+        h2{
+            border: 2px solid brown;
+            color: brown;
+        }
+        h6{
+           background-color: var(--background-color);
+        }
+        footer{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am exploring custom property</h1>
+        <p>Can I find custom property</p>
+    </header>
+    <main>
+        <h2>My jhakanaka Website</h2>
+        <h6>My small heading</h6>
+    </main>
+    <footer>
+        <p>@copyright 2023 all right reserved by AK</p>
+    </footer>
+</body>
+</html>
