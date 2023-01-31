@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Match Animation</title>
+    <style>
+        .field{
+            border: 1px solid brown;
+            height: 500px;
+        }
+        .bat{
+            transition: transform 0.2s ease-in;
+        }
+        .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            background-color: brown;
+            position: relative;
+            left: 460px;
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="bat" src="images/bat-removebg.png" alt="">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>
