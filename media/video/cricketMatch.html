@@ -8,18 +8,24 @@
     <style>
         .field{
             border: 1px solid brown;
-            height: 500px;
+            height: 900px;
+            background-color: seagreen;
         }
         .bat{
             transition: transform 0.2s ease-in;
         }
         .ball{
-            height: 50px;
-            width: 50px;
-            border-radius: 25px;
+            height: 70px;
+            width: 70px;
+            border-radius: 45px;
             background-color: brown;
             position: relative;
-            left: 460px;
+            left: 420px;
+            bottom: 100px;
+            transition: transform 1s ease-out 0.3s;
+        }
+        .field:hover .ball{
+            transform: translate(1350px,-150px);
         }
         .field:hover .bat{
             transform: rotate(-60deg);

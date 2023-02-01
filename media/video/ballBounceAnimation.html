@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Bounce Animation</title>
+    <style>
+        .area{
+            background-color: lightseagreen;
+            height: 100vh;
+            width: 100%;
+            padding: 10px;
+            background-image: url("images/forest3.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        .ball{
+            height: 200px;
+            width: 200px;
+            background: linear-gradient(to bottom, #ff9900 0%, #ff0066 100%);
+            
+            border-radius: 100px;
+            margin-top: 500px;
+            margin-left: 800px;  
+            transition: transform linear 6s;  
+        }
+        .area:hover .ball{
+            transform: translate(210px, -850px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="area">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,34 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transition</title>
+    <title>Document</title>
     <style>
+        /* ***kake transition korbo,kotokhon transition korbo,kibhabe transition korbo  */
         .box{
-            width: 100px;
-            height: 100px;
-            border: 3px solid coral;
-            background-color: brown;
-            transition: width 1s, height 1s, transform 1s;
-        }
-        .box:hover{
             width: 200px;
             height: 200px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+            color: gold;
+            font-size: 30px;
+            background-color: seagreen;
+            transition: width 2s, height 2s, transform 2s;
+
+        }
+        .box:hover{
+            width: 300px;
+            height: 300px;
             transform: rotate(180deg);
         }
     </style>
 </head>
 <body>
     <div class="box">
-        <h2>Transition</h2>
+        <p>Transition Makes transform</p>
     </div>
     <div class="box">
-        <h2>Transition</h2>
+        <p>Transition Makes transform</p>
     </div>
     <div class="box">
-        <h2>Transition</h2>
+        <p>Transition Makes transform</p>
     </div>
 </body>
 </html>
